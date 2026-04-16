@@ -1,0 +1,174 @@
+/* RESET GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth; /* Faz o scroll ficar suave ao clicar no botão */
+}
+
+body{
+    background-color: #111;
+    color: white;
+}
+
+/* MENU SUPERIOR */
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo span{
+    color: gold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: white !important;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: gold !important;
+}
+
+.fa-whatsapp { color: #25d366; }
+.fa-instagram { color: #e4405f; }
+
+/* BANNER PRINCIPAL */
+.secao-img1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/produtos/moto.king.jpg");
+    background-size: cover;
+    background-position: center 10%;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+.texto h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+button{
+    background: #f7c948;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #e6b63f;
+    transform: scale(1.05);
+}
+
+/* ESTILIZAÇÃO DA SEÇÃO DE PRODUTOS */
+#nossos-produtos {
+    padding: 60px 20px;
+    background-color: #111;
+}
+
+.produtos-titulo {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.produtos-titulo li {
+    font-size: 35px;
+    font-weight: bold;
+    color: gold;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 280px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: gold;
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.preco {
+    font-size: 22px !important;
+    font-weight: bold;
+    color: gold !important;
+}
+
+/* SEGUNDA IMAGEM */
+.secao-img2{
+    width: 100%;
+    height: 60vh;
+    background-image: url("./img/estrada.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* RODAPÉ */
+footer{
+    text-align: center;
+    padding: 40px;
+    background: black;
+}
+.container-flex {
+display: flex;
+flex-direction: row-reverse;
+gap: 20px;
+width: 100%;
+padding: 20px;
+}
