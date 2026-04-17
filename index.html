@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>King Motos</title>
+    <script type="text/javascript">
+        alert('conheca nossos produtos!'); 
+    </script>
 
     <link rel="stylesheet" href="index.css">
 
@@ -44,6 +47,19 @@
     <ul class="produtos-titulo">
         <li>Nossos Produtos</li>&#127949;
     </ul>
+    <!--data-->
+    <p class="dataAtual"><script>
+        Data = new Date
+
+        //dia da semana
+        diasemana = new array('domingo','segunda-feira','terca-feira','quarta-feira','quinta-feira','sexta-feira','sabado')
+
+        mes = new array('janeiro','fevereiro','marco','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro')
+
+
+
+                document.write(diasemana[data.getday()] + ' , ' + data.getdate() + ' de ' + mes[data.getmonth()] + ' de ' + data.getfullyear())
+    </script></p>
 
     <div class="container">
         <div class="card">
@@ -71,6 +87,11 @@
             <p>perfeita </p>
             <p class="preço">R$ 29.000</p>Placa preta &#129591;
         </div>
+        <div class="card">
+            <img src="./img/produtos/1992_Honda.jpg" alt="As melhores motos">
+            <h2>1992</h2>
+            <p>perfeita </p>
+            <p class="preço">R$ 55.000</p>pode ser sua
         </div>
 </main>
 
