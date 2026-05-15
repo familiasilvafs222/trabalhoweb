@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>King Motos</title>
     <script type="text/javascript">
-        alert('conheca nossos produtos!'); 
+        
     </script>
 
     <link rel="stylesheet" href="index.css">
@@ -38,76 +38,156 @@
         <p>As melhores Motos você encontra aqui.</p>
 
         <a href="#nossos-produtos">
-            <button>Ver Produtos</button>
+            <button>Ver &darr;&darr;Produtos</button> 
         </a>
     </div>
 </section>
 
+
+    
+    <section class="sobre_nos">
+        <h2 class="titulo_sobrenos">Sobre nós</h2>
+        <img src="./produtos/moto.king.jpg" class="img_sobrenos"/>
+        <p>A <strong>KING MOTOS</strong> é uma empresa conceituada no mercado de motos onde voçê encontra as melhores motos.
+        <br><br>Temos os melhores preços e qualidades do mercado.
+        </p>
+        
+        <p class="texto_diferente">
+            Todas as motos com revisões feitas e com garantia.
+        </p>
+        
+    </section>
 <main id="nossos-produtos">
     <ul class="produtos-titulo">
-        <li>Nossos Produtos</li>&#127949;
+        <li>Nossos Produtos</li>
     </ul>
-    <!--data-->
-    <p class="dataAtual"><script>
-        Data = new Date
-
-        //dia da semana
-        diasemana = new array('domingo','segunda-feira','terca-feira','quarta-feira','quinta-feira','sexta-feira','sabado')
-
-        mes = new array('janeiro','fevereiro','marco','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro')
-
-
-
-                document.write(diasemana[data.getday()] + ' , ' + data.getdate() + ' de ' + mes[data.getmonth()] + ' de ' + data.getfullyear())
-    </script></p>
-
     <div class="container">
-        <div class="card">
-            <img src="./img/produtos/images.jpg" width="200" height="100">
+       <div class="container">
+    <div class="card">
+        <a href="pop_produtos.html" style="text-decoration: none; color: inherit;">
+            <img src="./produtos/images.jpg" alt="moto Honda CB 500">
             <h2>Motos</h2>
-            <p>Diversas </p>
+            <p>Diversas</p>
             <p class="preço">R$ 44.500</p>Unico dono
-        </div>
-
-        <div class="card">
-            <img src="./img/produtos/retroroad.webp" alt="200">
+        </a>
+    </div>
+    <div class="card">
+        <a href="pop_produtos.html" style="text-decoration: none; color: inherit;">
+            <img src="./produtos/retroroad.webp" alt="Raridades">
             <h2>Raridades</h2>
             <p>Diversas Marcas</p>
             <p class="preço">R$ xxxxxx</p>????
-        </div>
-        <div class="card">
-            <img src="./img/produtos/motos.antiga.jpg" alt="motos">
+        </a>
+    </div>
+    <div class="card">
+        <a href="pop_produtos.html" style="text-decoration: none; color: inherit;">
+            <img src="./produtos/motos.antiga.jpg" alt="motos">
             <h2>motos lindas</h2>
             <p>diversas</p>
             <p class="preço">R$ 39.000</p>Todas as revisões feitas
-        </div>
-        <div class="card">
-            <img src="./img/1986.jpg" alt="As melhores motos">
+        </a>
+    </div>
+    <div class="card">
+        <a href="pop_produtos.html" style="text-decoration: none; color: inherit;">
+            <img src="./produtos/img/1986.jpg" alt="As melhores motos">
             <h2>1986</h2>
-            <p>perfeita </p>
-            <p class="preço">R$ 29.000</p>Placa preta &#129591;
-        </div>
-        <div class="card">
-            <img src="./img/produtos/1992_Honda.jpg" alt="As melhores motos">
+            <p>perfeita</p>
+            <p class="preço">R$ 29.000</p>Placa preta 🨷
+        </a>
+    </div>
+    <div class="card">
+        <a href="pop_produtos.html" style="text-decoration: none; color: inherit;">
+            <img src="./produtos/1992_Honda.jpg" alt="As melhores motos">
             <h2>1992</h2>
-            <p>perfeita </p>
-            <p class="preço">R$ 55.000</p>pode ser sua
-        </div>
-</main>
+            <p>perfeita</p>
+            <p class="preço">R$ 55.000</p>pode ser sua.
+        </a>
+    </div>
+</div>
 
-<section class="secao-img2"></section> 
+        <div class="container">
+            <img id="ducato" src="./produtos/ducato.jpg" alt="imagem inicial">
+        </div>
+
+        <button onclick="mudarImagem()"> Motos todas revisadas na Honda.
+        &#128295;&#9881; 
+        <img id="1992_honda.jpg,ducato.jpg,images.jpg,moto.antiga.jpg,1986.jpg" src="1992_honda.jpg,ducato.jpg,images.jpg,moto.antiga.jpg,1986.jpg" onclick="detalhesmoto('1992_honda.jpg,ducato.jpg,images.jpg,moto.antiga.jpg,1986.jpg')">
+        
+</main>
+<section class="secao-img2"></section>                                                                     
 <div class="container-flex">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.3762044916803!2d-46.548263125417755!3d-23.662500765314242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42fa87ca9125%3A0x3316667a990a7ba7!2sR.%20Corumb%C3%A1%2C%20372%20-%20Vila%20Alice%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009041-270!5e0!3m2!1spt-BR!2sbr!4v1776347235772!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+    acesse o google maps.
+</div> 
 <div class="video">
-    <iframe src="https://youtu.be/TsQVTlcSUlQ"></iframe>
+    <iframe
+     width=“100” height=“100”
+     src="https://www.youtube.com/embed/TsQVTlcSUlQ?si=Dkss7TPMz_RYvM8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+<!-- NOVA SEÇÃO: CONTATOS (Baseada na imagem fornecida) -->
+<section class="contatos-container">
+    <h2>CONTATOS</h2>
+    
+    <form class="formulario-contato">
+        <!-- 1. Caixas de Texto -->
+        <div class="campo">
+            <label for="nome">* Nome e sobrenome</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required name="email">
+        </div>
+
+        <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" maxlength="11" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+        </div>
+
+        <!-- 2. Textarea -->
+        <div class="campo">
+            <label for="mensagem">* Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        </div>
+
+        <!-- 3. Radio Button -->
+        <div class="campo-opcao">
+            <label>Como prefere o nosso contato?</label>
+            <label><input type="radio" name="preferencia_contato" value="email"> E-mail</label>
+            <label><input type="radio" name="preferencia_contato" value="telefone"> Telefone</label>
+            <label><input type="radio" name="preferencia_contato" value="whatsapp"> Whatsapp</label>
+        </div>
+
+        <!-- 4. Combo box -->
+        <div class="campo">
+            <label for="motivo">Qual o motivo do seu contato?</label>
+            <select id="motivo" name="motivo">
+                <option value="">Selecione</option>
+                <option value="duvida">Dúvidas</option>
+                <option value="orcamento">Orçamento</option>
+                <option value="sugestao">Sugestões</option>
+            </select>
+        </div>
+
+        <!-- 5. Check box -->
+        <div class="campo-checkbox">
+            <label>
+                <input type="checkbox" name="receber_novidades"> Gostaria de receber nossas novidades por e-mail?
+            </label>
+        </div>
+        <button onclick="mudarImagem()">ENVIAR</button>
+    </form>
+</section>
+
 <footer>
+    <img src="./produtos/logo.jpg" title="King Motos" class="logo_footer"/>
     <p>&#127949; 2026 Road King Motos -  VENHA SER FELIZ.</p>
 </footer>
 
 </body>
 </html>
+
       
     
